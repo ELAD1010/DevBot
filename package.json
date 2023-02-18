@@ -20,6 +20,12 @@
     "url": "https://github.com/ELAD1010/DevBot/issues"
   },
   "homepage": "https://github.com/ELAD1010/DevBot#readme",
+  "dependencies": {
+    "@octokit/core": "^4.2.0",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "octokit": "^2.0.14"
+  },
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "@types/node": "^18.14.0",
