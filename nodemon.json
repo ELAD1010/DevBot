@@ -4,6 +4,7 @@
   "ignore": [],
   "exec": "npx ts-node ./src/index.ts",
   "events": {
-    "restart": "echo Restarting Application..."
+    "start": "powershell write-host -fore Green Starting Application...",
+    "exit": "powershell write-host -fore Green Application Started Successfully!"
   }
 }
