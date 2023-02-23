@@ -1,5 +1,6 @@
 import { setupBoostrap } from "./boostrap";
-async function runApp() {
-  setupBoostrap();
+function runApp(): void {
+  void setupBoostrap();
 }
+
 runApp();
